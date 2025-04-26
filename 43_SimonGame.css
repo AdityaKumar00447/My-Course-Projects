@@ -1,0 +1,40 @@
+body{
+    text-align: center;
+}
+
+.btn{
+    height: 220px;
+    width: 220px;
+    border: 15px solid black;
+    border-radius: 30%;
+    margin: 2rem;
+}
+.btn-container{
+    display: flex;
+    justify-content: center;
+}
+.red{
+    background-color: rgb(255, 140, 140);
+}
+.blue{
+    background-color: rgb(83, 212, 255);
+}
+.green{
+    background-color: rgb(128, 191, 0);
+}
+.yellow{
+    background-color: rgb(253, 228, 9);
+}
+.flash{
+    background-color: whitesmoke;
+}
+
+.userFlash{
+    background-color: rgb(255, 185, 177);
+}
+
+#hiddenInput{
+    opacity:0; 
+    position:absolute; 
+    top:-100px;
+}
